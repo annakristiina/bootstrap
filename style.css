@@ -1,9 +1,8 @@
-body {
-    margin: 0;
-    padding: 0;
+* {
+    box-sizing: border-box;
 }
 
-.container {
+.container-fluid {
     display: grid;
     grid-template-areas:
         "header"
@@ -12,19 +11,16 @@ body {
         "footer";
     grid-template-columns: 1fr;
     grid-template-rows: auto auto 1fr auto;
-    gap: 10px;
-    background-color: aliceblue;
-    justify-content: center;
-    align-content: center;
     min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(84, 170, 246);
+    gap: 0px;
 }
 
 header {
     grid-area: header;
     height: clamp(16rem, 60vh, 42rem);
-    justify-items: center;
-    align-items: center;
-    text-align: center;
 }
 
 .kuva-alue {
@@ -67,4 +63,20 @@ header img {
 
 .kuvateksti h3 {
     font-size: clamp(3rem, 9vw, 7rem);
+    text-align: center;
+}
+
+nav {
+    grid-area: nav;
+    background-color: cyan;
+}
+
+main {
+    grid-area: main;
+    background-color: brown;
+}
+
+footer {
+    grid-area: footer;
+    background-color: coral;
 }
