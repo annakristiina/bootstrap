@@ -118,6 +118,11 @@ footer {
 }
 
 @media (max-width: 600px) {
+    .navbar-toggler {
+        align-items: center;
+        width: 100%;
+    }
+
     .navbar-collapse {
         width: 100%;
         text-align: center;
