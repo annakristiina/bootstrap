@@ -18,6 +18,7 @@
     gap: 0px;
 }
 
+/* Header */
 header {
     grid-area: header;
     height: clamp(16rem, 60vh, 42rem);
@@ -36,6 +37,7 @@ header img {
     object-fit: cover;
 }
 
+/* Laitetaan kahvilan nimi headeriin ja tehdään sille animaatio */
 .kuvateksti {
     position: absolute;
     bottom: 0;
@@ -66,16 +68,19 @@ header img {
     text-align: center;
 }
 
+/* Navigaatio */
 nav {
     grid-area: nav;
     background-color: cyan;
 }
 
+/* Pääsisältö */
 main {
     grid-area: main;
     background-color: brown;
 }
 
+/*Footer */
 footer {
     grid-area: footer;
     background-color: coral;
