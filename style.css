@@ -14,7 +14,6 @@
     min-height: 100vh;
     margin: 0;
     padding: 0;
-    background-color: rgb(84, 170, 246);
     gap: 0px;
 }
 
@@ -71,7 +70,39 @@ header img {
 /* Navigaatio */
 nav {
     grid-area: nav;
-    background-color: cyan;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: clamp(0.5rem, 2vw, 1.25rem);
+    font-size: 1.5rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #B98B72;
+}
+
+.navbar-collapse {
+    justify-content: center;
+}
+
+.navbar-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.nav-link {
+    display: inline-block;
+    text-decoration: none;
+    transition: color 0.25s ease, transform 0.25s ease;
+    color: white;
+    padding: clamp(0.6rem, 1.8vw, 1.25rem);
+}
+
+nav .nav-link:hover,
+nav .nav-link:focus-visible {
+    color: lightpink;
+    transform: translateY(-5px);
 }
 
 /* Pääsisältö */
@@ -85,3 +116,4 @@ footer {
     grid-area: footer;
     background-color: coral;
 }
+
