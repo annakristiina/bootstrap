@@ -112,6 +112,13 @@ main {
     display: grid;
 }
 
+.carousel-inner img {
+    width: 100%;
+    margin: auto;
+    min-height: 200px;
+    padding: 20px;
+}
+
 #demo {
     width: 80%;
     max-width: 1200px;
@@ -122,6 +129,14 @@ main {
     width: 100%;
     height: 450px;
     object-fit: cover;
+}
+
+h3 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
 }
 
 /*Footer */
