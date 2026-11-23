@@ -70,11 +70,10 @@ header img {
 /* Navigaatio */
 nav {
     grid-area: nav;
-    display: grid;
+    display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
- 
     padding: clamp(0.5rem, 2vw, 1.25rem);
     font-size: 1.5rem;
     font-family: Georgia, 'Times New Roman', Times, serif;
