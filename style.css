@@ -43,7 +43,6 @@ header img {
     left: 0;
     right: 0;
     padding: clamp(1rem, 4vh, 2rem);
-    color: white;
     z-index: 2;
     background: linear-gradient(to top, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0) 100%);
     opacity: 0;
@@ -62,9 +61,11 @@ header img {
     }
 }
 
-.kuvateksti h3 {
+.kuvateksti h3 a {
     font-size: clamp(3rem, 9vw, 7rem);
     text-align: center;
+    text-decoration: none;
+    color: white;
 }
 
 /* Navigaatio */
