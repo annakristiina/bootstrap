@@ -142,7 +142,7 @@ p {
 /*Footer */
 footer {
     grid-area: footer;
-    background-color: coral;
+    background-color: #F3E9D8;
 }
 
 @media (max-width: 600px) {
