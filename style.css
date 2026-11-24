@@ -133,12 +133,16 @@ main {
     object-fit: cover;
 }
 
-h3 {
+.esittely {
     text-align: center;
+    padding: 20px;
 }
 
-p {
-    text-align: center;
+.esittely-teksti {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 40px;
 }
 
 h1 {
