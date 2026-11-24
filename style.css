@@ -167,6 +167,8 @@ h1 {
     justify-content: center;
     text-align: center;
     position: relative;
+    background-color: #754C3A;
+    color: lightpink;
 }
 
 .accordion .accordion-button::after {
