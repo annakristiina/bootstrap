@@ -61,7 +61,7 @@ header img {
     }
 }
 
-.kuvateksti h3 a {
+.kuvateksti h1 a {
     font-size: clamp(3rem, 9vw, 7rem);
     text-align: center;
     text-decoration: none;
@@ -150,6 +150,7 @@ h1 {
     font-family: "Tangerine", sans-serif;
     font-size: 5rem;
     text-align: center;
+    text-decoration: none;
 }
 
 /* Korttikuvat */
