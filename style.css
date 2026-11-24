@@ -113,6 +113,7 @@ main {
     background-color: #F3E9D8;
 }
 
+/* Kuvakaruselli */
 .carousel-inner img {
     width: 100%;
     margin: auto;
@@ -147,17 +148,20 @@ h1 {
     text-align: center;
 }
 
+/* Korttikuvat */
 .card-img-top {
     width: 100%;
     height: 400px;
     object-fit: cover;
 }
 
+/* Taulukko */
 .table {
     margin-top: 70px;
     margin-bottom: 70px;
 }
 
+/* Yhteystiedot */
 .yhteystiedot {
     text-align: center;
 }
@@ -189,6 +193,7 @@ h5 {
     margin-top: 50px;
 }
 
+/* Haitari */
 .accordion {
     width: 80%;
     max-width: 900px;
@@ -209,8 +214,7 @@ h5 {
     margin-left: 0;
 }
 
-
-/*Footer */
+/* Footer */
 footer {
     grid-area: footer;
     display: grid;
