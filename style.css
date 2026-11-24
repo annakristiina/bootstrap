@@ -110,6 +110,7 @@ nav .nav-link:focus-visible {
 main {
     grid-area: main;
     display: grid;
+    background-color: #F3E9D8;
 }
 
 .carousel-inner img {
@@ -155,6 +156,13 @@ h1 {
     margin-top: 70px;
     margin-bottom: 70px;
 }
+
+.accordion {
+    width: 80%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
 
 /*Footer */
 footer {
