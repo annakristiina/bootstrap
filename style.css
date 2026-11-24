@@ -144,6 +144,7 @@ h1 {
     padding: 20px;
     font-family: "Tangerine", sans-serif;
     font-size: 5rem;
+    text-align: center;
 }
 
 .card-img-top {
@@ -157,10 +158,41 @@ h1 {
     margin-bottom: 70px;
 }
 
+.yhteystiedot {
+    text-align: center;
+}
+
+.yhteystieto-lista {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+
+.yhteystieto-lista p {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.yhteystieto-lista svg {
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+    color: #A87960;
+    margin-right: 12px;
+}
+
+h5 {
+    text-align: center;
+    margin-top: 50px;
+}
+
 .accordion {
     width: 80%;
     max-width: 900px;
-    margin: 0 auto;
+    margin: 40px auto;
 }
 
 .accordion .accordion-button {
