@@ -73,8 +73,6 @@ nav {
     grid-area: nav;
     display: flex;
     justify-content: center;
-    align-items: center;
-    text-align: center;
     padding: clamp(0.5rem, 2vw, 1.25rem);
     font-size: 1.5rem;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -90,6 +88,7 @@ nav {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    gap: 30px;
 }
 
 .nav-link {
@@ -175,8 +174,6 @@ p {
     padding: 20px;
 }
 
-
-
 /* Korttikuvat */
 .card-img-top {
     width: 100%;
@@ -190,9 +187,10 @@ p {
 }
 
 /* Taulukko */
-.table {
-    margin-top: 70px;
-    margin-bottom: 70px;
+.table-responsive {
+    width: 85%;
+    max-width: 1200px;
+    margin: 40px auto;
 }
 
 /* Yhteystiedot */
@@ -278,22 +276,22 @@ footer {
 
 .footer-sisältö h4 {
     padding: 10px;
-    color: #754C3A;
+    color: white;
 }
 
 .footer-sisältö p {
     margin: 5px;
-    color: #754C3A;
+    color: white;
 }
 
 .footer-navigaatio a {
-    color: #754C3A;
+    color: white;
     text-decoration: none;
 }
 
 .footer-navigaatio a:hover {
     text-decoration: underline;
-    color: white;
+    color: #754C3A;
 }
 
 .copyright {
