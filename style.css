@@ -250,7 +250,7 @@ p {
     text-align: center;
     position: relative;
     background-color: #B98B72;
-    color: #754C3A;
+    color: white;
 }
 
 .accordion .accordion-button::after {
