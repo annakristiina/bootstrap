@@ -78,7 +78,7 @@ nav {
     padding: clamp(0.5rem, 2vw, 1.25rem);
     font-size: 1.5rem;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background-color: #F3E9D8;
+    background-color: #e2b49a;
 }
 
 .navbar-collapse {
@@ -102,7 +102,7 @@ nav {
 
 nav .nav-link:hover,
 nav .nav-link:focus-visible {
-    color: lightpink;
+    color: white;
     transform: translateY(-5px);
 }
 
@@ -110,7 +110,7 @@ nav .nav-link:focus-visible {
 main {
     grid-area: main;
     display: grid;
-    background-color: whitesmoke;
+    background-color: #f9f5eb;
 }
 
 /* Kuvakaruselli */
@@ -134,12 +134,8 @@ main {
 }
 
 .carousel-control-prev-icon { 
-
-background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23FFFFFF' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E"); 
-
-} 
-
- 
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23FFFFFF' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E"); 
+}
 
 .carousel-control-next-icon { 
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23FFFFFF' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E"); 
@@ -163,6 +159,11 @@ h1 {
     font-size: 5rem;
     text-align: center;
     text-decoration: none;
+    color: #754C3A;
+}
+
+p {
+    color: #754C3A
 }
 
 /* Korttikuvat */
@@ -233,7 +234,7 @@ h5 {
 
 /* Footer */
 footer {
-    background-color: #F3E9D8;
+    background-color: #e2b49a;
     padding: 10px;
     text-align: center;
     border-top: 1px solid #c9c3b7;
@@ -250,10 +251,12 @@ footer {
 
 .footer-sisältö h4 {
     padding: 10px;
+    color: #754C3A;
 }
 
 .footer-sisältö p {
     margin: 5px;
+    color: #754C3A;
 }
 
 .footer-navigaatio a {
@@ -263,7 +266,11 @@ footer {
 
 .footer-navigaatio a:hover {
     text-decoration: underline;
-    color: lightpink;
+    color: white;
+}
+
+.copyright {
+    color: #754C3A;
 }
 
 @media (max-width: 600px) {
