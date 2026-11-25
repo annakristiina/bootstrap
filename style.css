@@ -110,7 +110,7 @@ nav .nav-link:focus-visible {
 main {
     grid-area: main;
     display: grid;
-    background-color: #F3E9D8;
+    background-color: whitesmoke;
 }
 
 /* Kuvakaruselli */
