@@ -161,6 +161,22 @@ p {
     text-align: center;
 }
 
+.leivonnaiset h2 {
+    font-family: "Tangerine", sans-serif;
+    color: #754C3A;
+    font-size: 4.5rem;
+    padding: 20px;
+}
+
+.kahvit h2 {
+    font-family: "Tangerine", sans-serif;
+    color: #754C3A;
+    font-size: 4.5rem;
+    padding: 20px;
+}
+
+
+
 /* Korttikuvat */
 .card-img-top {
     width: 100%;
@@ -191,6 +207,22 @@ p {
     margin-top: 20px;
 }
 
+.yhteystiedot h2 {
+    font-family: "Tangerine", sans-serif;
+    color: #754C3A;
+    font-size: 4.5rem;
+    padding: 20px;
+}
+
+.aukioloajat h3 {
+    font-family: "Tangerine", sans-serif;
+    color: #754C3A;
+    font-size: 4.5rem;
+    padding: 20px;
+    text-align: center;
+    margin-top: 60px;
+}
+
 .yhteystieto-lista p {
     display: flex;
     align-items: center;
@@ -204,11 +236,6 @@ p {
     flex-shrink: 0;
     color: #A87960;
     margin-right: 12px;
-}
-
-h5 {
-    text-align: center;
-    margin-top: 50px;
 }
 
 /* Haitari */
