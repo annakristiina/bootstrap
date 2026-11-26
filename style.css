@@ -194,6 +194,17 @@ p {
 }
 
 /* Yhteystiedot */
+.yhteystiedot-sisältö {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: start;
+    justify-items: center;
+    gap: 150px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px;
+}
+
 .yhteystiedot {
     text-align: center;
 }
@@ -212,13 +223,18 @@ p {
     padding: 20px;
 }
 
+.aukioloajat {
+    text-align: center;
+}
+
 .aukioloajat h3 {
     font-family: "Tangerine", sans-serif;
     color: #754C3A;
     font-size: 4.5rem;
     padding: 20px;
     text-align: center;
-    margin-top: 60px;
+    margin-top: 0;
+    margin-bottom: 20px;
 }
 
 .yhteystieto-lista p {
