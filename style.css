@@ -304,6 +304,7 @@ footer {
 .footer-sisältö h4 {
     padding: 10px;
     color: #754C3A;
+    text-decoration: underline;
 }
 
 .footer-sisältö p {
