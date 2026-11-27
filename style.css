@@ -189,8 +189,18 @@ p {
 /* Taulukko */
 .table-responsive {
     width: 85%;
-    max-width: 1200px;
+    max-width: 800px;
     margin: 40px auto;
+}
+
+.hinnasto {
+    width: 100%;
+    table-layout: fixed;
+}
+
+.hinnasto th,
+.hinnasto td {
+    text-align: center;
 }
 
 /* Yhteystiedot */
@@ -334,5 +344,17 @@ footer {
 
     .nav-link {
         text-align: center;
+    }
+
+    .footer-sisältö {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        gap: 60px;
+    }
+
+    .footer-sisältö h4 {
+        text-decoration: underline;
     }
 }
