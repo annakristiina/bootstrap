@@ -302,12 +302,12 @@ footer {
 
 .footer-sisältö h4 {
     padding: 10px;
-    color: white;
+    color: #754C3A;
 }
 
 .footer-sisältö p {
     margin: 5px;
-    color: white;
+    color: #754C3A;
 }
 
 .footer-navigaatio a {
@@ -352,7 +352,7 @@ footer {
             align-items: center;
             width: 100%;
             gap: 60px;
-        }
+    
     }
 
     .footer-sisältö {
