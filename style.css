@@ -311,13 +311,13 @@ footer {
 }
 
 .footer-navigaatio a {
-    color: white;
+    color: #754C3A;
     text-decoration: none;
 }
 
 .footer-navigaatio a:hover {
     text-decoration: underline;
-    color: #754C3A;
+    color: white;
 }
 
 .copyright {
