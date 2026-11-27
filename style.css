@@ -285,8 +285,8 @@ p {
     justify-content: center;
     text-align: center;
     position: relative;
-    background-color: #B98B72;
-    color: white;
+    background-color: #e2b49a;
+    color: #754C3A;
 }
 
 .accordion .accordion-button::after {
