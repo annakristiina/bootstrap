@@ -263,9 +263,20 @@ p {
     margin-right: 12px;
 }
 
+.kahvilakuva {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 80px;
+    margin-top: 40px;
+    width: 100%;
+    max-width: 1000px;
+    height: auto;
+}
+
+
 /* Haitari */
 .accordion {
-    width: 80%;
+    width: 100%;
     max-width: 900px;
     margin: 40px auto;
 }
